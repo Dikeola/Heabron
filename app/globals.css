@@ -1,5 +1,55 @@
 @import "tailwindcss";
 
+/* Make all interactive elements show pointer cursor */
+button,
+a,
+select,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+[role="button"],
+[role="menuitem"] {
+  cursor: pointer !important;
+}
+
+/* Only text inputs and textareas should show text cursor */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="search"],
+input:not([type]),
+textarea {
+  cursor: text !important;
+}
+
+/* Make sure links always show pointer */
+a,
+a:hover,
+a:active,
+a:focus {
+  cursor: pointer !important;
+}
+
+/* Make sure buttons always show pointer */
+button,
+button:hover,
+button:active,
+button:focus,
+[type="button"],
+[type="submit"],
+[type="reset"] {
+  cursor: pointer !important;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
