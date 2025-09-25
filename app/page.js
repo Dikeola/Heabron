@@ -39,16 +39,16 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-8">About Us</h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Heabron is redefining agricultural finance for Africa's smallholder farmers.
+              Heabron is redefining agricultural finance for Africa&apos;s smallholder farmers.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              We provide smart, data-driven credit and guaranteed market access to farming cooperatives that have long been excluded from traditional finance systems. Our innovation, the Cooperative Scoring System, transforms how lenders perceive risk by using behavioral data and group accountability to unlock financing where it's needed most.
+              We provide smart, data-driven credit and guaranteed market access to farming cooperatives that have long been excluded from traditional finance systems. Our innovation, the Cooperative Scoring System, transforms how lenders perceive risk by using behavioral data and group accountability to unlock financing where it&apos;s needed most.
             </p>
             <p className="text-lg text-gray-700 mt-6 leading-relaxed">
               In a country where less than 5% of rural farmers can access formal credit, Heabron is changing the story bridging the agricultural financing gap with trust, technology, and capital.
             </p>
             <p className="text-lg text-gray-700 mt-6 font-semibold">
-              We don't just fund farmers. We build systems of trust, grow communities, and power food systems.
+              We don&apos;t just fund farmers. We build systems of trust, grow communities, and power food systems.
             </p>
           </div>
         </div>

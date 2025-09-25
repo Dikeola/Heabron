@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import Dropdown from './Dropdown';
 import Button from './Button';
@@ -70,9 +71,11 @@ const Header = () => {
 
           {/* Logo - centered on mobile, left on desktop */}
           <div className={`${isMobile ? 'mx-auto' : 'mr-auto'} lg:mr-0`}>
-            <img 
-              src="/heabron_logo.png" 
-              alt="Heabron Logo" 
+            <Image
+              src="/heabron_logo.png"
+              alt="Heabron Logo"
+              width={120}
+              height={40}
               className="h-10 w-auto"
             />
           </div>
@@ -109,8 +112,8 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isOpen && isMobile && (
-          <div className="lg:hidden mt-4 pb-4 bg-white shadow-lg rounded-lg mx-4">
-            <nav className="flex flex-col space-y-4 p-4">
+          <div className="lg:hidden mt-4 pb-4">
+            <nav className="flex flex-col space-y-4">
               {navItems.map((item, index) => {
                 if (item.type === 'dropdown') {
                   return (

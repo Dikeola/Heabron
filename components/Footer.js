@@ -1,13 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { FaPhone, FaEnvelope, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import Image from 'next/image';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   const footerNavItems = [
     { label: 'Home', href: '/' },
     { label: 'About Us', href: '/about' },
-    { label: 'Careers', href: '/careers' },
     { label: 'Our Blog', href: '/insights/blog' },
     { label: "Farmer's Story", href: '/insights/farmers-story' },
     { label: 'Contact Us', href: '/contact' },
@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-6 w-full max-w-none">
           {/* Column 1: Logo and Company Info */}
           <div className="w-full text-center">
-            <img src="/heabron_logo.png" alt="Heabron Logo" className="h-12 w-auto mb-4 mx-auto" />
+            <Image src="/heabron_logo.png" alt="Heabron Logo" width={120} height={48} className="h-12 w-auto mb-4 mx-auto" />
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
               Empowering farmers and agricultural communities through innovative solutions and cooperative partnerships.
             </p>

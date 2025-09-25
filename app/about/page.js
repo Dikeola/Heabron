@@ -70,7 +70,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Heabron Farm Limited</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Heabron Farm Limited is an agritech company empowering smallholder farmers across Nigeria through inclusive finance and structured market access. We use technology and data to solve one of agriculture's biggest challenges—access to reliable capital and fair buyers.
+              Heabron Farm Limited is an agritech company empowering smallholder farmers across Nigeria through inclusive finance and structured market access. We use technology and data to solve one of agriculture&apos;s biggest challenges—access to reliable capital and fair buyers.
             </p>
           </div>
         </div>
