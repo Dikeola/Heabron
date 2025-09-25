@@ -106,7 +106,7 @@ const Header = () => {
 
           {/* Get Started Button - hidden on mobile */}
           <div className="hidden lg:block">
-            <Button href="/get-started" className="animate-slide-down" style={{ animationDelay: `${navItems.length * 0.1}s` }}>
+            <Button href="/login" className="animate-slide-down" style={{ animationDelay: `${navItems.length * 0.1}s` }}>
               Get Started
             </Button>
           </div>
@@ -169,7 +169,7 @@ const Header = () => {
                 );
               })}
               <Button
-                href="/get-started"
+                href="/login"
                 onClick={() => setIsOpen(false)}
               >
                 Get Started

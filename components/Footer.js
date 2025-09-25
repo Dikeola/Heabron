@@ -42,7 +42,7 @@ const Footer = () => {
                 href="https://www.facebook.com/Heabron/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-800 p-2 rounded-full hover:bg-green-600 transition-colors"
+                className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-all duration-300 hover:scale-110"
                 aria-label="Facebook"
               >
                 <FaFacebook className="text-white" />
@@ -51,16 +51,23 @@ const Footer = () => {
                 href="https://twitter.com/Heabron_"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-800 p-2 rounded-full hover:bg-green-600 transition-colors"
-                aria-label="Twitter"
+                className="bg-gray-800 p-2 rounded-full hover:bg-black transition-all duration-300 hover:scale-110"
+                aria-label="X (formerly Twitter)"
               >
-                <FaTwitter className="text-white" />
+                <svg
+                  className="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
               </a>
               <a
                 href="https://www.instagram.com/heabron_"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-800 p-2 rounded-full hover:bg-green-600 transition-colors"
+                className="bg-gray-800 p-2 rounded-full hover:bg-pink-500 transition-all duration-300 hover:scale-110"
                 aria-label="Instagram"
               >
                 <FaInstagram className="text-white" />
@@ -69,7 +76,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/heabron-farm"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-800 p-2 rounded-full hover:bg-green-600 transition-colors"
+                className="bg-gray-800 p-2 rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-110"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin className="text-white" />
@@ -78,7 +85,7 @@ const Footer = () => {
                 href="https://www.youtube.com/@Heabron-farm-limited"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-800 p-2 rounded-full hover:bg-green-600 transition-colors"
+                className="bg-gray-800 p-2 rounded-full hover:bg-red-600 transition-all duration-300 hover:scale-110"
                 aria-label="YouTube"
               >
                 <FaYoutube className="text-white" />
