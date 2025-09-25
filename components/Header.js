@@ -76,7 +76,8 @@ const Header = () => {
               alt="Heabron Logo"
               width={120}
               height={40}
-              className="h-10 w-auto"
+              className="h-10 w-auto animate-slide-down"
+              style={{ animationDelay: '0.2s' }}
             />
           </div>
 
@@ -93,7 +94,8 @@ const Header = () => {
                 <Link 
                   key={index} 
                   href={item.href}
-                  className={`relative inline-block py-2 transition-colors hover:text-gray-300 ${item.href === pathname ? 'text-gray-300 font-semibold' : ''} group`}
+                  className={`relative inline-block py-2 transition-colors hover:text-gray-300 ${item.href === pathname ? 'text-gray-300 font-semibold' : ''} group animate-slide-down`}
+                  style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   {item.label}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
@@ -104,7 +106,7 @@ const Header = () => {
 
           {/* Get Started Button - hidden on mobile */}
           <div className="hidden lg:block">
-            <Button href="/get-started">
+            <Button href="/get-started" className="animate-slide-down" style={{ animationDelay: `${navItems.length * 0.1}s` }}>
               Get Started
             </Button>
           </div>
