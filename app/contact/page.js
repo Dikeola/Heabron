@@ -162,14 +162,14 @@ export default function ContactPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Our Newsletter</h3>
               <p className="text-gray-600 mb-4">Subscribe to receive our latest updates in your inbox!</p>
               
-              <form className="flex space-x-2">
+              <form className="flex flex-col space-y-3">
                 <input 
                   type="email" 
                   placeholder="Email" 
-                  className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder-gray-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder-gray-500"
                   required
                 />
-                <Button type="submit" className="whitespace-nowrap">
+                <Button type="submit" className="w-full">
                   Sign Up
                 </Button>
               </form>
